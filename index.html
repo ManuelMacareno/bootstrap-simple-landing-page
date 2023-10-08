@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/bootstrap-logo.svg" alt="Bootstrap" height="20">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tramites</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container cursos">
+            <div class="row g-0">
+                <div class="col col-12 col-sm-6 col-lg-4 g-4">
+                    <div class="card">
+                        <img src="/assets/gente-estudiando.avif" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Tecnicas de programacion</h4>
+                            <p class="card-text">Aprende algoritmos, diagramas de flujo, estructura de datos y mucho mas</p>
+                            <a href="#" class="btn btn-success">Mas detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-lg-4 g-4">
+                    <div class="card">
+                        <img src="/assets/base-de-datos.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Bases de datos</h4>
+                            <p class="card-text">Aprende Diagrama entidad-relacion, tablas, SQL y mucho mas</p>
+                            <a href="#" class="btn btn-success">Mas detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-lg-4 g-4">
+                    <div class="card">
+                        <img src="/assets/full-stack.webp" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Desarrollo web</h4>
+                            <p class="card-text">Aprende como armar tus propias paginas web y dominar el desarrollo full stack</p>
+                            <a href="#" class="btn btn-success">Mas detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

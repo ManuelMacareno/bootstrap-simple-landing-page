@@ -1,0 +1,11 @@
+.cursos a.btn {
+    padding: 0.5rem 2rem;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.cursos a.btn:hover {
+    scale: 1.025;
+    background-color: lightblue;
+    border: lightblue;
+}
